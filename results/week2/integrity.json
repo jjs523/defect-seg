@@ -1,0 +1,57 @@
+{
+ "train": {
+  "files": 4036,
+  "label_without_image": 0,
+  "kept": 3918,
+  "origin_in_val_or_test": 55,
+  "unreadable": 63,
+  "images_per_class": {
+   "crack": 716,
+   "spall_detach": 2317,
+   "efflorescence": 885
+  },
+  "instances_per_class": {
+   "crack": 1050,
+   "spall_detach": 2615,
+   "efflorescence": 1783
+  },
+  "origins": 119
+ },
+ "val": {
+  "files": 40,
+  "label_without_image": 0,
+  "kept": 40,
+  "images_per_class": {
+   "spall_detach": 13,
+   "crack": 10,
+   "efflorescence": 17
+  },
+  "instances_per_class": {
+   "spall_detach": 16,
+   "crack": 10,
+   "efflorescence": 27
+  },
+  "origins": 40
+ },
+ "test": {
+  "files": 40,
+  "label_without_image": 0,
+  "kept": 40,
+  "images_per_class": {
+   "crack": 13,
+   "spall_detach": 14,
+   "efflorescence": 13
+  },
+  "instances_per_class": {
+   "crack": 14,
+   "spall_detach": 14,
+   "efflorescence": 19
+  },
+  "origins": 40
+ },
+ "origin_overlap_after": {
+  "train&val": 0,
+  "train&test": 0,
+  "val&test": 0
+ }
+}

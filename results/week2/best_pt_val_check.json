@@ -1,0 +1,20 @@
+{
+ "split": "val",
+ "images": 40,
+ "mask_map50": 0.6715,
+ "mask_map": 0.255,
+ "per_class": {
+  "crack": {
+   "map50": 0.7391,
+   "map": 0.2966
+  },
+  "efflorescence": {
+   "map50": 0.405,
+   "map": 0.1222
+  },
+  "spall_detach": {
+   "map50": 0.8704,
+   "map": 0.3461
+  }
+ }
+}

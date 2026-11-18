@@ -1,0 +1,8 @@
+python: 3.10.12 Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35
+torch: 2.14.1+cu130
+cuda: True
+device: NVIDIA GeForce RTX 2070 SUPER
+ultralytics: 8.4.198  opencv: 5.0.0  matplotlib: 3.10.9
+model loaded
+task: segment  classes(COCO): 80  params: 11,821,056
+GPU 추론 확인: 입력 960, 결과 1 장, 속도 {'preprocess': 40.9, 'inference': 17.3, 'postprocess': 1.0} ms

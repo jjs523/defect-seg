@@ -1,0 +1,76 @@
+{
+ "images": 15,
+ "empty_files": [],
+ "images_per_class": {
+  "spall_detach": 7,
+  "efflorescence": 5,
+  "crack": 7
+ },
+ "instances_per_class": {
+  "spall_detach": 12,
+  "efflorescence": 17,
+  "crack": 25
+ },
+ "instances_total": 54,
+ "iou_with_provided": {
+  "crack": {
+   "n": 5,
+   "median": 0.299,
+   "min": 0.164,
+   "max": 0.377
+  },
+  "efflorescence": {
+   "n": 5,
+   "median": 0.341,
+   "min": 0.0,
+   "max": 0.821
+  },
+  "spall_detach": {
+   "n": 5,
+   "median": 0.514,
+   "min": 0.0,
+   "max": 0.844
+  }
+ },
+ "first_line": {
+  "file": "URT002_2021_01_10_001_1636.txt",
+  "tokens": 379,
+  "head": [
+   "2",
+   "0.000000",
+   "0.560185",
+   "0.000000",
+   "0.765741",
+   "0.001042",
+   "0.766667",
+   "0.000000",
+   "0.767593"
+  ]
+ },
+ "source": "cvat_export.zip",
+ "tool": "CVAT",
+ "ignored_files": [],
+ "relabeled": [
+  {
+   "stem": "URT005_2021_01_01_001_5884",
+   "from": "spall_detach",
+   "to": "crack",
+   "polygons": 6,
+   "reason": "CVAT AI 도구 패널의 라벨이 기본값 spall_detach로 남은 채 균열을 그림"
+  },
+  {
+   "stem": "URT005_2021_02_03_001_20442",
+   "from": "spall_detach",
+   "to": "crack",
+   "polygons": 11,
+   "reason": "CVAT AI 도구 패널의 라벨이 기본값 spall_detach로 남은 채 균열을 그림"
+  },
+  {
+   "stem": "URT005_2021_02_11_001_15368",
+   "from": "spall_detach",
+   "to": "crack",
+   "polygons": 3,
+   "reason": "CVAT AI 도구 패널의 라벨이 기본값 spall_detach로 남은 채 균열을 그림"
+  }
+ ]
+}

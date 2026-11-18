@@ -1,0 +1,52 @@
+{
+ "id_pattern_miss": {
+  "train": 0,
+  "val": 0,
+  "test": 0
+ },
+ "aug_named": {
+  "train": 3790,
+  "val": 0,
+  "test": 0
+ },
+ "train_overlap_files_our_id": 55,
+ "train_overlap_files_lecture_id": 0,
+ "frame_overlap_after": {
+  "train&val": 0,
+  "train&test": 0
+ },
+ "shared_video": {
+  "val": {
+   "shared": 11,
+   "total": 24
+  },
+  "test": {
+   "shared": 16,
+   "total": 27
+  }
+ },
+ "non_jpg_files": {
+  "train": 0,
+  "val": 0,
+  "test": 0
+ },
+ "crack_width": {
+  "instances": 31,
+  "frames": 23,
+  "px_at_1920": {
+   "q10": 37.8,
+   "q50": 44.7,
+   "q90": 63.8
+  },
+  "px_at_960": {
+   "q10": 18.9,
+   "q50": 22.4,
+   "q90": 31.9
+  },
+  "px_at_640": {
+   "q10": 12.6,
+   "q50": 14.9,
+   "q90": 21.3
+  }
+ }
+}

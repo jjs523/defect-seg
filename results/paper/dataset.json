@@ -1,0 +1,33 @@
+{
+ "train": {
+  "files": 4036,
+  "kept": 3973,
+  "instances": 5503,
+  "zero_byte": 63,
+  "images_per_class": {
+   "0": 716,
+   "1": 885,
+   "2": 2372
+  }
+ },
+ "val": {
+  "files": 40,
+  "kept": 40,
+  "instances": 53,
+  "images_per_class": {
+   "0": 10,
+   "1": 17,
+   "2": 13
+  }
+ },
+ "test": {
+  "files": 40,
+  "kept": 40,
+  "instances": 47,
+  "images_per_class": {
+   "0": 13,
+   "1": 13,
+   "2": 14
+  }
+ }
+}

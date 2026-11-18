@@ -1,0 +1,23 @@
+# 데이터(AI Hub, 재배포 금지)와 데이터 영상이 들어간 파일
+data/
+dataset/*
+!dataset/data.yaml
+annotation/*.zip
+results/**/*.jpg
+results/week1/samples9.png
+results/week1/class_examples.png
+results/week1/hard_negatives.png
+results/**/val_batch*
+report/*.pdf
+report/*.html
+# 실행 산출물
+runs/
+dist/
+.venv/
+results/week3/val_runs/
+results/week3/error_preds.json
+*.pt
+!weights/best.pt
+.ipynb_checkpoints/
+*.pyc
+__pycache__/

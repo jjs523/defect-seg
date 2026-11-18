@@ -1,0 +1,287 @@
+{
+ "split": "test",
+ "protocol_sha256": "ac71aa1d25421799ece86ad5d95017620003abea6c5b6ca614f11abce7595c3d",
+ "protocol_fixed_at_utc": "2026-11-05T20:39:45.972007",
+ "finished_utc": "2026-11-05T20:40:12.003220",
+ "selected_seed": "1",
+ "selected_mode": "plain",
+ "paper": {
+  "mask_map50": 0.443,
+  "mask_map50_95": 0.222,
+  "macro_f1": 0.896
+ },
+ "margin": 0.025,
+ "verdict": {
+  "mask_map50": "better",
+  "mask_map50_95": "better",
+  "macro_f1": "within_resolution"
+ },
+ "summary": {
+  "mask_map50": {
+   "mean": 0.696481873297882,
+   "std": 0.035370727623066006,
+   "values": [
+    0.6564388128862413,
+    0.7095389683336838,
+    0.723467838673721
+   ]
+  },
+  "mask_map50_95": {
+   "mean": 0.32713928743926324,
+   "std": 0.00501888003066025,
+   "values": [
+    0.3310877812837465,
+    0.3214913225049501,
+    0.3288387585290931
+   ]
+  },
+  "macro_f1": {
+   "mean": 0.9004561976975771,
+   "std": 0.029007256051669518,
+   "values": [
+    0.8771717171717173,
+    0.9329501915708813,
+    0.8912466843501327
+   ]
+  },
+  "macro_f1_common": {
+   "mean": 0.9062749333513951,
+   "std": 0.013871368201296686,
+   "values": [
+    0.8929501915708813,
+    0.9206349206349206,
+    0.9052396878483835
+   ]
+  },
+  "macro_f1_plain": {
+   "mean": 0.9004561976975771,
+   "std": 0.029007256051669518,
+   "values": [
+    0.8771717171717173,
+    0.9329501915708813,
+    0.8912466843501327
+   ]
+  }
+ },
+ "seeds": {
+  "42": {
+   "thresholds": {
+    "crack": 0.2,
+    "efflorescence": 0.3,
+    "spall_detach": 0.01
+   },
+   "common_threshold": 0.06,
+   "onoff": {
+    "crack": {
+     "thr": 0.2,
+     "tp": 11,
+     "fp": 1,
+     "fn": 2,
+     "tn": 26,
+     "precision": 0.9166666666666666,
+     "recall": 0.8461538461538461,
+     "f1": 0.88
+    },
+    "efflorescence": {
+     "thr": 0.3,
+     "tp": 9,
+     "fp": 0,
+     "fn": 4,
+     "tn": 27,
+     "precision": 1.0,
+     "recall": 0.6923076923076923,
+     "f1": 0.8181818181818182
+    },
+    "spall_detach": {
+     "thr": 0.01,
+     "tp": 14,
+     "fp": 2,
+     "fn": 0,
+     "tn": 24,
+     "precision": 0.875,
+     "recall": 1.0,
+     "f1": 0.9333333333333333
+    },
+    "macro_f1": 0.8771717171717173
+   },
+   "macro_f1_plain": 0.8771717171717173,
+   "macro_f1_common": 0.8929501915708813,
+   "unseen_video": {
+    "images": 15,
+    "macro_f1_present": 0.844047619047619,
+    "classes_present": [
+     "crack",
+     "efflorescence",
+     "spall_detach"
+    ],
+    "images_per_class": {
+     "crack": 9,
+     "efflorescence": 3,
+     "spall_detach": 3
+    },
+    "mask_map50": 0.4797461773119667,
+    "mask_map50_95": 0.2306434615579352,
+    "box_map50": 0.6502632275132275,
+    "per_class_mask_map50": {
+     "crack": 0.20245281765018608,
+     "efflorescence": 0.8074999999999999,
+     "spall_detach": 0.4292857142857142
+    }
+   },
+   "mask_map50": 0.6564388128862413,
+   "mask_map50_95": 0.3310877812837465,
+   "box_map50": 0.7070169855437366,
+   "per_class_mask_map50": {
+    "crack": 0.4052660510647884,
+    "efflorescence": 0.6951800172235649,
+    "spall_detach": 0.8688703703703704
+   }
+  },
+  "1": {
+   "thresholds": {
+    "crack": 0.1,
+    "efflorescence": 0.06,
+    "spall_detach": 0.01
+   },
+   "common_threshold": 0.1,
+   "onoff": {
+    "crack": {
+     "thr": 0.1,
+     "tp": 13,
+     "fp": 0,
+     "fn": 0,
+     "tn": 27,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "efflorescence": {
+     "thr": 0.06,
+     "tp": 10,
+     "fp": 1,
+     "fn": 3,
+     "tn": 26,
+     "precision": 0.9090909090909091,
+     "recall": 0.7692307692307693,
+     "f1": 0.8333333333333334
+    },
+    "spall_detach": {
+     "thr": 0.01,
+     "tp": 14,
+     "fp": 1,
+     "fn": 0,
+     "tn": 25,
+     "precision": 0.9333333333333333,
+     "recall": 1.0,
+     "f1": 0.9655172413793104
+    },
+    "macro_f1": 0.9329501915708813
+   },
+   "macro_f1_plain": 0.9329501915708813,
+   "macro_f1_common": 0.9206349206349206,
+   "unseen_video": {
+    "images": 15,
+    "macro_f1_present": 0.9523809523809524,
+    "classes_present": [
+     "crack",
+     "efflorescence",
+     "spall_detach"
+    ],
+    "images_per_class": {
+     "crack": 9,
+     "efflorescence": 3,
+     "spall_detach": 3
+    },
+    "mask_map50": 0.6603703703703704,
+    "mask_map50_95": 0.3133842592592593,
+    "box_map50": 0.6670061728395061,
+    "per_class_mask_map50": {
+     "crack": 0.37111111111111117,
+     "efflorescence": 0.945,
+     "spall_detach": 0.665
+    }
+   },
+   "mask_map50": 0.7095389683336838,
+   "mask_map50_95": 0.3214913225049501,
+   "box_map50": 0.6706914852932438,
+   "per_class_mask_map50": {
+    "crack": 0.5715770202020203,
+    "efflorescence": 0.6559341155682619,
+    "spall_detach": 0.9011057692307693
+   }
+  },
+  "2": {
+   "thresholds": {
+    "crack": 0.06,
+    "efflorescence": 0.001,
+    "spall_detach": 0.5
+   },
+   "common_threshold": 0.06,
+   "onoff": {
+    "crack": {
+     "thr": 0.06,
+     "tp": 11,
+     "fp": 2,
+     "fn": 2,
+     "tn": 25,
+     "precision": 0.8461538461538461,
+     "recall": 0.8461538461538461,
+     "f1": 0.8461538461538461
+    },
+    "efflorescence": {
+     "thr": 0.001,
+     "tp": 12,
+     "fp": 4,
+     "fn": 1,
+     "tn": 23,
+     "precision": 0.75,
+     "recall": 0.9230769230769231,
+     "f1": 0.8275862068965517
+    },
+    "spall_detach": {
+     "thr": 0.5,
+     "tp": 14,
+     "fp": 0,
+     "fn": 0,
+     "tn": 26,
+     "precision": 1.0,
+     "recall": 1.0,
+     "f1": 1.0
+    },
+    "macro_f1": 0.8912466843501327
+   },
+   "macro_f1_plain": 0.8912466843501327,
+   "macro_f1_common": 0.9052396878483835,
+   "unseen_video": {
+    "images": 15,
+    "macro_f1_present": 0.8578431372549019,
+    "classes_present": [
+     "crack",
+     "efflorescence",
+     "spall_detach"
+    ],
+    "images_per_class": {
+     "crack": 9,
+     "efflorescence": 3,
+     "spall_detach": 3
+    },
+    "mask_map50": 0.81465876013979,
+    "mask_map50_95": 0.3670111891270428,
+    "box_map50": 0.6719237174047472,
+    "per_class_mask_map50": {
+     "crack": 0.5364762804193699,
+     "efflorescence": 0.995,
+     "spall_detach": 0.9125000000000002
+    }
+   },
+   "mask_map50": 0.723467838673721,
+   "mask_map50_95": 0.3288387585290931,
+   "box_map50": 0.6568685155599053,
+   "per_class_mask_map50": {
+    "crack": 0.6188906955083427,
+    "efflorescence": 0.6621111111111111,
+    "spall_detach": 0.8894017094017095
+   }
+  }
+ }
+}

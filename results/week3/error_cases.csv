@@ -1,0 +1,8 @@
+cls,kind,stem,conf,thr,gt
+efflorescence,FN,URT007_2022_01_01_001_4832,0.00108,0.06,efflorescence
+efflorescence,FN,URT007_2022_01_11_001_14386_jpg.rf.fc222653d1b3f3e8b3350d7e7f9331f9,0.0,0.06,efflorescence
+efflorescence,FN,URT007_2022_01_11_001_1914,0.00186,0.06,efflorescence
+efflorescence,FP,URT017_2020_02_08_001_24512_jpg.rf.c2fd9d2931d850bd20aef4922bbe65b0,0.80261,0.06,spall_detach
+spall_detach,FP,URT007_2022_01_01_001_4832,0.24114,0.01,efflorescence
+crack,근접_OFF,URT007_2022_01_13_001_14472_jpg.rf.9ae3c22cddeedae352ccc55387f6b734,0.09698,0.1,efflorescence
+crack,근접_ON,URT005_2021_01_03_001_13040,0.25653,0.1,crack

@@ -1,0 +1,177 @@
+{
+ "train": {
+  "images": 4036,
+  "resolutions": [
+   [
+    "1920x1080",
+    3647
+   ],
+   [
+    "1080x1920",
+    326
+   ]
+  ],
+  "kinds": {
+   "plain": 119,
+   "aug": 3854
+  },
+  "empty_labels": 0,
+  "bad_polygons": 0,
+  "images_per_class": {
+   "crack": 716,
+   "efflorescence": 885,
+   "spall_detach": 2372
+  },
+  "instances_per_class": {
+   "crack": 1050,
+   "efflorescence": 1783,
+   "spall_detach": 2670
+  },
+  "median_area_pct": {
+   "crack": 1.992,
+   "spall_detach": 3.398,
+   "efflorescence": 2.862
+  },
+  "combos": [
+   [
+    "spall_detach",
+    2372
+   ],
+   [
+    "efflorescence",
+    885
+   ],
+   [
+    "crack",
+    716
+   ]
+  ]
+ },
+ "val": {
+  "images": 40,
+  "resolutions": [
+   [
+    "1920x1080",
+    40
+   ]
+  ],
+  "kinds": {
+   "roboflow": 24,
+   "plain": 16
+  },
+  "empty_labels": 0,
+  "bad_polygons": 0,
+  "images_per_class": {
+   "crack": 10,
+   "efflorescence": 17,
+   "spall_detach": 13
+  },
+  "instances_per_class": {
+   "crack": 10,
+   "efflorescence": 27,
+   "spall_detach": 16
+  },
+  "median_area_pct": {
+   "spall_detach": 2.465,
+   "crack": 2.32,
+   "efflorescence": 2.192
+  },
+  "combos": [
+   [
+    "efflorescence",
+    17
+   ],
+   [
+    "spall_detach",
+    13
+   ],
+   [
+    "crack",
+    10
+   ]
+  ]
+ },
+ "test": {
+  "images": 40,
+  "resolutions": [
+   [
+    "1920x1080",
+    40
+   ]
+  ],
+  "kinds": {
+   "roboflow": 19,
+   "plain": 21
+  },
+  "empty_labels": 0,
+  "bad_polygons": 0,
+  "images_per_class": {
+   "crack": 13,
+   "efflorescence": 13,
+   "spall_detach": 14
+  },
+  "instances_per_class": {
+   "crack": 14,
+   "efflorescence": 19,
+   "spall_detach": 14
+  },
+  "median_area_pct": {
+   "crack": 2.487,
+   "spall_detach": 3.873,
+   "efflorescence": 4.87
+  },
+  "combos": [
+   [
+    "spall_detach",
+    14
+   ],
+   [
+    "crack",
+    13
+   ],
+   [
+    "efflorescence",
+    13
+   ]
+  ]
+ },
+ "unique_origins": {
+  "train": 120,
+  "val": 40,
+  "test": 40
+ },
+ "origin_overlap": {
+  "train&val": 0,
+  "train&test": 1,
+  "val&test": 0
+ },
+ "origin_overlap_examples": {
+  "train&val": [],
+  "train&test": [
+   "URT017_2020_02_08_001_24512"
+  ],
+  "val&test": []
+ },
+ "identical_bytes_across_splits": 0,
+ "same_bytes_within_any": 31,
+ "unreadable": {
+  "count": 63,
+  "by_origin": [
+   [
+    "URT020_2021_04_03_001_2914",
+    34
+   ],
+   [
+    "URT020_2021_03_05_002_20650",
+    27
+   ],
+   [
+    "URT020_2021_01_12_002_779",
+    2
+   ]
+  ],
+  "sizes": [
+   0
+  ]
+ }
+}

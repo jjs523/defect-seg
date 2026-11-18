@@ -1,0 +1,4 @@
+{"decided_at_local": "2026-11-18 17:22:42 +0900",
+ "submission_model": "runs/clean_s1 (results/improve, protocol sha256 ac71aa1d...)",
+ "reason": "2026-11-05 테스트 전에 고정한 protocol.json 규칙(검증 mask mAP50과 검증 macro F1 평균 최대)으로 선택된 모델. 3주차에 테스트를 새로 돌리지 않는다.",
+ "not_used": "runs/step3(2주차 제출 모델)는 테스트 평가하지 않으며 비교·선택에 쓰지 않는다. runs/paper는 테스트를 이미 봤으므로 후보가 아니다."}

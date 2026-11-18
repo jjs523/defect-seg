@@ -1,0 +1,15 @@
+/home/defect-seg/dataset/images/test/UCT011_2021_01_06_001_6840_jpg.rf.b637f27b7bdf92480508621d4431576c.jpg
+/home/defect-seg/dataset/images/test/UCT011_2021_01_06_001_6842_jpg.rf.9bd1a5fda4659669044eafa496b3b680.jpg
+/home/defect-seg/dataset/images/test/UCT011_2021_02_12_001_13670_jpg.rf.79e25c8b0a13e9834bbe8a714bb3fe45.jpg
+/home/defect-seg/dataset/images/test/UCT011_2021_02_12_001_7560_jpg.rf.61b96aa4fa6fb412149d039d329130f2.jpg
+/home/defect-seg/dataset/images/test/UCT011_2021_02_12_001_7770_jpg.rf.3b8c7b272fecfca702e16e9af0383b01.jpg
+/home/defect-seg/dataset/images/test/URT002_2021_01_07_001_23554.jpg
+/home/defect-seg/dataset/images/test/URT005_2021_01_02_001_17812_jpg.rf.73a260d685025aa7030a1eb8351b29a1.jpg
+/home/defect-seg/dataset/images/test/URT005_2021_01_02_001_9016_jpg.rf.cc3349867461d0ec12b30c4b2eaf04b3.jpg
+/home/defect-seg/dataset/images/test/URT005_2021_01_03_001_13040.jpg
+/home/defect-seg/dataset/images/test/URT007_2022_01_04_001_3890_jpg.rf.8a52b416ed68695af38e660e3e49c4ff.jpg
+/home/defect-seg/dataset/images/test/URT007_2022_01_13_091_33074_jpg.rf.dc07dcb513157dd024c2c8f80121d0ec.jpg
+/home/defect-seg/dataset/images/test/URT017_2020_02_06_002_13146.jpg
+/home/defect-seg/dataset/images/test/URT017_2020_02_08_001_24512_jpg.rf.c2fd9d2931d850bd20aef4922bbe65b0.jpg
+/home/defect-seg/dataset/images/test/USU013_2022_04_16_005_2734_jpg.rf.af47edd2d0aafdc054c9daae58c2fa3d.jpg
+/home/defect-seg/dataset/images/test/UWT015_2021_01_02_001_17710_jpg.rf.7572a104cdadc04b5de0863fff1bdf11.jpg

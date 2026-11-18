@@ -1,0 +1,356 @@
+{
+ "fixed_at_utc": "2026-11-05T20:39:45.972007",
+ "rule": {
+  "mode": "시드 평균 검증 macro F1이 0.025 이상 높을 때만 타일 채택",
+  "seed": "(검증 mask mAP50 + 검증 macro F1)/2 최대",
+  "submission": "대표 시드 모델을 제출 모델로 한다. 테스트 수치로 바꾸지 않으며 runs/paper와 runs/step3는 후보가 아니다",
+  "threshold": "클래스별 검증 F1 최대, 동점이면 낮은 값",
+  "grid": [
+   0.001,
+   0.004,
+   0.01,
+   0.02,
+   0.06,
+   0.1,
+   0.2,
+   0.3,
+   0.4,
+   0.5,
+   0.6,
+   0.7
+  ],
+  "lecture_grid": [
+   0.001,
+   0.004,
+   0.01,
+   0.02,
+   0.06,
+   0.1,
+   0.2,
+   0.3
+  ],
+  "grid_note": "논문 재현 실험의 검증 탐색에서 crack과 spall F1이 0.3까지 평평해 범위를 넓혔다. 그 실험의 테스트를 본 뒤 정한 값이므로 강의 범위 결과도 함께 기록한다",
+  "claim": "지표별로 테스트 시드 평균과 대표 시드가 모두 논문값+0.025 이상이면 better, 모두 논문값-0.025 이하면 worse, 그 외는 within_resolution"
+ },
+ "paper": {
+  "mask_map50": 0.443,
+  "mask_map50_95": 0.222,
+  "macro_f1": 0.896
+ },
+ "mean_val_macro_f1": {
+  "plain": 0.8682014483146175,
+  "tile": 0.8599512414074891
+ },
+ "selected_mode": "plain",
+ "selected_seed": "1",
+ "selection_score": {
+  "42": 0.7642214002007951,
+  "1": 0.8019662356995815,
+  "2": 0.7440070770907072
+ },
+ "seeds": {
+  "42": {
+   "weights_sha256": "a0ed2d7432785f8a07e2ce876ae05461e48179cfb29e400a0f4953f1340a86c0",
+   "thresholds": {
+    "plain": {
+     "crack": 0.2,
+     "efflorescence": 0.3,
+     "spall_detach": 0.01
+    },
+    "tile": {
+     "crack": 0.6,
+     "efflorescence": 0.6,
+     "spall_detach": 0.06
+    }
+   },
+   "common_threshold": 0.06,
+   "lecture_grid_thresholds": {
+    "crack": 0.2,
+    "efflorescence": 0.3,
+    "spall_detach": 0.01
+   },
+   "macro_f1": {
+    "plain": 0.877742946708464,
+    "tile": 0.8553981937602627,
+    "plain_lecture_grid": 0.877742946708464,
+    "plain_common": 0.8595389805097451
+   },
+   "onoff_plain": {
+    "crack": {
+     "thr": 0.2,
+     "tp": 10,
+     "fp": 2,
+     "fn": 0,
+     "tn": 28,
+     "precision": 0.8333333333333334,
+     "recall": 1.0,
+     "f1": 0.9090909090909091
+    },
+    "efflorescence": {
+     "thr": 0.3,
+     "tp": 12,
+     "fp": 0,
+     "fn": 5,
+     "tn": 23,
+     "precision": 1.0,
+     "recall": 0.7058823529411765,
+     "f1": 0.8275862068965517
+    },
+    "spall_detach": {
+     "thr": 0.01,
+     "tp": 13,
+     "fp": 3,
+     "fn": 0,
+     "tn": 24,
+     "precision": 0.8125,
+     "recall": 1.0,
+     "f1": 0.896551724137931
+    },
+    "macro_f1": 0.877742946708464
+   },
+   "onoff_tile": {
+    "crack": {
+     "thr": 0.6,
+     "tp": 9,
+     "fp": 2,
+     "fn": 1,
+     "tn": 28,
+     "precision": 0.8181818181818182,
+     "recall": 0.9,
+     "f1": 0.8571428571428571
+    },
+    "efflorescence": {
+     "thr": 0.6,
+     "tp": 13,
+     "fp": 2,
+     "fn": 4,
+     "tn": 21,
+     "precision": 0.8666666666666667,
+     "recall": 0.7647058823529411,
+     "f1": 0.8125
+    },
+    "spall_detach": {
+     "thr": 0.06,
+     "tp": 13,
+     "fp": 3,
+     "fn": 0,
+     "tn": 24,
+     "precision": 0.8125,
+     "recall": 1.0,
+     "f1": 0.896551724137931
+    },
+    "macro_f1": 0.8553981937602627
+   },
+   "mask_map50": 0.6506998536931262,
+   "mask_map50_95": 0.2669458986947343,
+   "box_map50": 0.6498310153003933,
+   "per_class_mask_map50": {
+    "crack": 0.7059209837781267,
+    "efflorescence": 0.38870833920601366,
+    "spall_detach": 0.8574702380952381
+   }
+  },
+  "1": {
+   "weights_sha256": "356a61cfe64b892d7f4e8776d018277d0c4ab92de9b6255598e8f98dc3e9919c",
+   "thresholds": {
+    "plain": {
+     "crack": 0.1,
+     "efflorescence": 0.06,
+     "spall_detach": 0.01
+    },
+    "tile": {
+     "crack": 0.5,
+     "efflorescence": 0.06,
+     "spall_detach": 0.4
+    }
+   },
+   "common_threshold": 0.1,
+   "lecture_grid_thresholds": {
+    "crack": 0.1,
+    "efflorescence": 0.06,
+    "spall_detach": 0.01
+   },
+   "macro_f1": {
+    "plain": 0.8907697666318356,
+    "tile": 0.865993265993266,
+    "plain_lecture_grid": 0.8907697666318356,
+    "plain_common": 0.8907697666318356
+   },
+   "onoff_plain": {
+    "crack": {
+     "thr": 0.1,
+     "tp": 10,
+     "fp": 2,
+     "fn": 0,
+     "tn": 28,
+     "precision": 0.8333333333333334,
+     "recall": 1.0,
+     "f1": 0.9090909090909091
+    },
+    "efflorescence": {
+     "thr": 0.06,
+     "tp": 13,
+     "fp": 0,
+     "fn": 4,
+     "tn": 23,
+     "precision": 1.0,
+     "recall": 0.7647058823529411,
+     "f1": 0.8666666666666667
+    },
+    "spall_detach": {
+     "thr": 0.01,
+     "tp": 13,
+     "fp": 3,
+     "fn": 0,
+     "tn": 24,
+     "precision": 0.8125,
+     "recall": 1.0,
+     "f1": 0.896551724137931
+    },
+    "macro_f1": 0.8907697666318356
+   },
+   "onoff_tile": {
+    "crack": {
+     "thr": 0.5,
+     "tp": 10,
+     "fp": 2,
+     "fn": 0,
+     "tn": 28,
+     "precision": 0.8333333333333334,
+     "recall": 1.0,
+     "f1": 0.9090909090909091
+    },
+    "efflorescence": {
+     "thr": 0.06,
+     "tp": 14,
+     "fp": 4,
+     "fn": 3,
+     "tn": 19,
+     "precision": 0.7777777777777778,
+     "recall": 0.8235294117647058,
+     "f1": 0.8
+    },
+    "spall_detach": {
+     "thr": 0.4,
+     "tp": 12,
+     "fp": 2,
+     "fn": 1,
+     "tn": 25,
+     "precision": 0.8571428571428571,
+     "recall": 0.9230769230769231,
+     "f1": 0.8888888888888888
+    },
+    "macro_f1": 0.865993265993266
+   },
+   "mask_map50": 0.7131627047673273,
+   "mask_map50_95": 0.2552616909700661,
+   "box_map50": 0.684786456408614,
+   "per_class_mask_map50": {
+    "crack": 0.7693333333333333,
+    "efflorescence": 0.49462846517917514,
+    "spall_detach": 0.8755263157894738
+   }
+  },
+  "2": {
+   "weights_sha256": "13c968d04856a8f001612aa25fbde6417406e63e600c9b55d8e455d24f5ec9b2",
+   "thresholds": {
+    "plain": {
+     "crack": 0.06,
+     "efflorescence": 0.001,
+     "spall_detach": 0.5
+    },
+    "tile": {
+     "crack": 0.4,
+     "efflorescence": 0.7,
+     "spall_detach": 0.2
+    }
+   },
+   "common_threshold": 0.06,
+   "lecture_grid_thresholds": {
+    "crack": 0.06,
+    "efflorescence": 0.001,
+    "spall_detach": 0.01
+   },
+   "macro_f1": {
+    "plain": 0.8360916316035532,
+    "tile": 0.8584622644689386,
+    "plain_lecture_grid": 0.832051227563149,
+    "plain_common": 0.8185907046476761
+   },
+   "onoff_plain": {
+    "crack": {
+     "thr": 0.06,
+     "tp": 10,
+     "fp": 3,
+     "fn": 0,
+     "tn": 27,
+     "precision": 0.7692307692307693,
+     "recall": 1.0,
+     "f1": 0.8695652173913043
+    },
+    "efflorescence": {
+     "thr": 0.001,
+     "tp": 13,
+     "fp": 1,
+     "fn": 4,
+     "tn": 22,
+     "precision": 0.9285714285714286,
+     "recall": 0.7647058823529411,
+     "f1": 0.8387096774193549
+    },
+    "spall_detach": {
+     "thr": 0.5,
+     "tp": 10,
+     "fp": 2,
+     "fn": 3,
+     "tn": 25,
+     "precision": 0.8333333333333334,
+     "recall": 0.7692307692307693,
+     "f1": 0.8
+    },
+    "macro_f1": 0.8360916316035532
+   },
+   "onoff_tile": {
+    "crack": {
+     "thr": 0.4,
+     "tp": 10,
+     "fp": 2,
+     "fn": 0,
+     "tn": 28,
+     "precision": 0.8333333333333334,
+     "recall": 1.0,
+     "f1": 0.9090909090909091
+    },
+    "efflorescence": {
+     "thr": 0.7,
+     "tp": 12,
+     "fp": 0,
+     "fn": 5,
+     "tn": 23,
+     "precision": 1.0,
+     "recall": 0.7058823529411765,
+     "f1": 0.8275862068965517
+    },
+    "spall_detach": {
+     "thr": 0.2,
+     "tp": 13,
+     "fp": 5,
+     "fn": 0,
+     "tn": 22,
+     "precision": 0.7222222222222222,
+     "recall": 1.0,
+     "f1": 0.8387096774193549
+    },
+    "macro_f1": 0.8584622644689386
+   },
+   "mask_map50": 0.6519225225778613,
+   "mask_map50_95": 0.22081043109224513,
+   "box_map50": 0.675362327129355,
+   "per_class_mask_map50": {
+    "crack": 0.6833684210526316,
+    "efflorescence": 0.508345259391771,
+    "spall_detach": 0.7640538872891813
+   }
+  }
+ }
+}

@@ -1,0 +1,16 @@
+stem,provided_class,provided_instances,my_instances,my_classes,iou_with_provided
+URT002_2021_01_10_001_1636,spall_detach,1,1,spall_detach,0.514
+URT004_2021_04_06_001_17658,spall_detach,1,2,"efflorescence,spall_detach",0.844
+URT004_2021_04_07_001_7312,spall_detach,1,1,spall_detach,0.835
+URT005_2021_01_01_001_5884,crack,2,6,crack,0.299
+URT005_2021_02_03_001_20442,crack,3,11,crack,0.164
+URT005_2021_02_11_001_15368,crack,3,3,crack,0.332
+URT007_2022_01_03_001_11178,efflorescence,3,7,efflorescence,0.821
+URT007_2022_01_09_001_30004,spall_detach,8,6,spall_detach,0.385
+URT007_2022_01_11_001_3482,efflorescence,2,1,spall_detach,0.0
+URT007_2022_01_12_001_12236,efflorescence,2,8,"crack,efflorescence,spall_detach",0.341
+URT007_2022_01_13_001_5468,efflorescence,1,2,"efflorescence,spall_detach",0.173
+URT007_2022_01_14_001_5894,efflorescence,2,2,efflorescence,0.676
+URT008_2022_02_05_001_40266,spall_detach,1,1,crack,0.0
+URT017_2020_01_14_002_6737,crack,1,2,crack,0.377
+URT020_2021_01_12_002_15403,crack,1,1,crack,0.179
